@@ -1,6 +1,6 @@
 [project]
 name = "rdflib-sparql-dataframe"
-version = "0.1.0"
+version = "1.0.0"
 description = "Export results from an rdflib SPARQL query into a `pandas.DataFrame`, using Python types."
 repository = "https://github.com/white-gecko/rdflib-sparql-dataframe"
 authors = [
@@ -21,4 +21,3 @@ build-backend = "poetry.core.masonry.api"
 
 [tool.poetry.group.dev.dependencies]
 pytest = "^8.3.5"
-
