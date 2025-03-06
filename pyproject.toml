@@ -1,0 +1,19 @@
+[project]
+name = "rdflib-sparql-dataframe"
+version = "0.1.0"
+description = "Export results from an rdflib SPARQL query into a `pandas.DataFrame`, using Python types."
+authors = [
+    {name = "Natanael Arndt", email = "arndtn@gmail.com"}
+]
+license = {text = "Apache-2.0"}
+readme = "README.md"
+requires-python = ">=3.13,<4.0.0"
+dependencies = [
+    "pandas (>=2.2.3,<3.0.0)",
+    "rdflib (>=7.1.3,<8.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
