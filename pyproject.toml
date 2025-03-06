@@ -1,6 +1,6 @@
 [project]
 name = "rdflib-sparql-dataframe"
-version = "1.0.1"
+version = "1.0.2"
 description = "Export results from an rdflib SPARQL query into a `pandas.DataFrame`, using Python types."
 authors = [
     {name = "Natanael Arndt", email = "arndtn@gmail.com"}
